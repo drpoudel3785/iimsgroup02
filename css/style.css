@@ -1,0 +1,27 @@
+   /* Universal Selector*/
+   *{
+    margin:0px;
+    padding:0px;
+}
+/* Type Selector*/
+body{
+    background-color:#cccddd;
+    background-image: url("../images/bg.jpg");
+    background-repeat: no-repeat;
+    background-position: top right;
+    
+    background-attachment: fixed;
+}
+/* id Selector*/
+#container{
+    width:1320px;
+    min-height:1500px;
+    background-color: #fffccc;
+    margin:auto auto;
+}
+.myheading{
+    font-size:30px;
+    border-bottom:2px solid #ffffff;
+    font-weight: bolder;
+    font-variant: small-caps;
+}

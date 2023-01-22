@@ -25,3 +25,35 @@ body{
     font-weight: bolder;
     font-variant: small-caps;
 }
+.banner{
+    background-image: url("../images/banner.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color:#266590 ;
+    min-height:340px;
+}
+
+.row{
+    min-height: 5px;
+}
+.col100{
+    width:100%;
+}
+
+.col75{
+    width:75%;
+    float:left;
+}
+
+.col50{
+    width:50%;
+    float:left;
+}
+.col25{
+    width:25%;
+    float:left;
+}
+
+.clear{
+    clear:both;
+}
